@@ -7,6 +7,7 @@
 ## 🚀 Funcionalidades Principais
 
 ### 🔐 Autenticação
+
 - Login com e-mail e senha
 - Recuperação de senha
 - Perfis de usuário:
@@ -16,6 +17,7 @@
 ---
 
 ### 🧭 Dashboard
+
 - Resumo geral dos tickets:
   - Em andamento
   - Concluídos
@@ -27,6 +29,7 @@
 ---
 
 ### 👥 Gestão de Clientes
+
 - Cadastro completo de clientes
 - Histórico de atendimento
 - Upload de contratos e documentos
@@ -34,6 +37,7 @@
 ---
 
 ### 📄 Contratos
+
 - Contrato Avulso ou Mensal
 - Campos: horas inclusas, valor, tipo de atendimento
 - Alerta de franquia excedida
@@ -42,6 +46,7 @@
 ---
 
 ### 🧾 Ordens de Serviço
+
 - Criadas quando equipamento chega ao laboratório
 - Status e histórico técnico
 - Geração de PDF com assinatura digital
@@ -49,6 +54,7 @@
 ---
 
 ### 🖥️ Inventário de Hardware
+
 - Coletado automaticamente via agente instalado
 - Informações detalhadas: CPU, RAM, disco, temperatura, etc.
 - Histórico de alterações
@@ -57,6 +63,7 @@
 ---
 
 ### 🎫 Tickets de Atendimento
+
 - Abertura por técnico ou cliente
 - Tipos: Presencial, Remoto, Laboratório
 - Registro de início, término, pausa para almoço
@@ -67,6 +74,7 @@
 ---
 
 ### 📆 Agenda
+
 - Visualização por semana e mês
 - Abertura automática de ticket ao agendar
 - Filtro por técnico e cliente
@@ -75,6 +83,7 @@
 ---
 
 ### 📈 Relatórios
+
 - Filtros por cliente, técnico, período
 - Total de atendimentos, horas gastas e tipos de serviço
 - Cálculo automático de horas do contrato
@@ -83,6 +92,7 @@
 ---
 
 ### 📡 Agente Instalador (cliente)
+
 - Instalação nos computadores dos clientes
 - Coleta de inventário
 - Abertura de tickets pelo cliente
@@ -92,12 +102,14 @@
 ---
 
 ### 🖥️ Acesso Remoto
+
 - Integração com apps externos (AnyDesk, Supremo, RustDesk)
 - Registro de sessões no histórico
 
 ---
 
 ### 👨‍💻 Gestão de Usuários
+
 - Cadastrar, editar e excluir usuários
 - Administrador: acesso total
 - Técnico: acesso restrito (tickets, OS, agenda)
@@ -105,16 +117,18 @@
 ---
 
 ## 📦 Tecnologias Utilizadas
-- Backend: Node.js, Express (ou FastAPI)
+
+- Backend: Node.js, Express
 - Frontend: React.js + Tailwind CSS
 - Banco de Dados: PostgreSQL
 - Autenticação: JWT
 - Armazenamento: AWS S3 (para documentos)
-- Deploy: Render, Railway ou VPS
+- Deploy: Render
 
 ---
 
 ## 📌 Roadmap Futuro
+
 - 📱 Aplicativo mobile para técnicos
 - 💬 Integração com WhatsApp
 - 📜 Assinatura digital em ordens de serviço
@@ -124,12 +138,13 @@
 ---
 
 ## 📄 Licença
+
 Sistema desenvolvido exclusivamente para uso interno da empresa **TecSolutions**.
 
 ---
 
 ## 🤝 Contato
+
 Para dúvidas, suporte ou sugestões:  
 📧 contato@tecsolutions.com.br  
 🔗 https://www.tecsolutions.com.br
-
